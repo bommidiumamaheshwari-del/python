@@ -1,0 +1,6 @@
+name = input("enter emp name: ")
+sal=int(input("enter salary:"))
+design=input("enter position:")
+a={'TL':10,'Manger':20,'Fresher':5,'Developer':15}
+tax=sal*(a[design]/100)
+print(tax)
