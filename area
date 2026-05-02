@@ -3,7 +3,7 @@ def sq():
     print("Area:",a*a)
 def cir(r):
     print("Area:",r*r*3.14)
-def rec(a,b):
+def rect(a,b):
     print("Area:",a*b)
 while (True):
     print("1.SQUARE")
